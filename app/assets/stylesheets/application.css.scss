@@ -21,7 +21,7 @@ h1, h2, h3 {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-body, .navbar {
+.navbar, .home-callout {
     //Gradient provided by @_ighosh at uiGradients.com
     background: #73C8A9; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #73C8A9 , #373B44); /* Chrome 10-25, Safari 5.1-6 */
@@ -30,4 +30,11 @@ body, .navbar {
 
 .navbar {
     border: none;
+    margin-bottom: 0px;
+}
+
+.home-callout {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: white;
 }
