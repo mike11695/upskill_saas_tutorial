@@ -70,15 +70,22 @@ h1, h2, h3 {
   color: white;
 }
 
-// Removes the alert notifying the user that they have signed in/logged out
-.alert-notice {
-  display: none;
-}
-
 .home-signup-links {
   margin-top: 30px;
 }
 
 .plan-container {
   height: 200px;
+}
+
+.flash-container {
+  position: absolute;
+  width: 100%;
+}
+
+.alert-notice, .alert-alert {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  margin-top: -14px;
 }
